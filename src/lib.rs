@@ -9,6 +9,8 @@ pub fn process_instruction(
     _accounts: &[AccountInfo],
     _instruction_data: &[u8],
 ) -> ProgramResult {
+    // message
     msg!("Hello, world!");
     Ok(())
 }
+
